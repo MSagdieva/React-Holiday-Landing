@@ -1,8 +1,20 @@
 import React, { Component } from 'react';
 import { Col, Row, Container, Media, ListGroup, Card } from 'react-bootstrap';
-import image from "../assets/2.jpg";
+import forest from "../assets/img/forest.JPG";
 
 export default class Blog extends Component {
+    constructor (props){
+        super(props)
+
+        this.state = {
+            time: new Date().getHours()
+        };
+        this.toDate = this.toDate.bind(this);
+    }
+    toDate(){
+        this.setState( state => ({
+        time: state.time}));
+    }
     render() {
         return (
             <Container className="mt-4">
@@ -13,7 +25,7 @@ export default class Blog extends Component {
                             height={"100%"}
                             className="mr-3"
                             style={{objectFit:"cover"}}
-                            src={image}
+                            src={forest}
                             />
                             <Media.Body style={{marginLeft:"30px"}}>
                                 <h5>Blog1</h5>
@@ -25,7 +37,7 @@ export default class Blog extends Component {
                             height={"100%"}
                             className="mr-3"
                             style={{objectFit:"cover"}}
-                            src={image}
+                            src="../../public/assets/img/tree.jpg"
                             />
                             <Media.Body style={{marginLeft:"30px"}}>
                                 <h5>Blog1</h5>
@@ -37,7 +49,7 @@ export default class Blog extends Component {
                             height={"100%"}
                             className="mr-3"
                             style={{objectFit:"cover"}}
-                            src={image}
+                            src="../../public/assets/img/tree.jpg"
                             />
                             <Media.Body style={{marginLeft:"30px"}}>
                                 <h5>Blog1</h5>
@@ -49,7 +61,7 @@ export default class Blog extends Component {
                             height={"100%"}
                             className="mr-3"
                             style={{objectFit:"cover"}}
-                            src={image}
+                            src="../../public/assets/img/tree.jpg"
                             />
                             <Media.Body style={{marginLeft:"30px"}}>
                                 <h5>Blog1</h5>
@@ -71,9 +83,9 @@ export default class Blog extends Component {
                         </Card>
                         <Card bg="light" variant="flush" className="mt-4">
                             <Card.Body>
-                                <Card.Title>Widget</Card.Title>
+                                <Card.Title>До праздников осталось</Card.Title>
                                 <Card.Text>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing 
+                                {this.state.time} дней
                                 </Card.Text>
                             </Card.Body>
                         

@@ -47,3 +47,9 @@ textarea.form-control:focus{
 background-color: #ffc107;
 border-color: #ffc107;
 }
+.carousel-indicators li{
+  width: 20px;
+  background-color: #fff;
+  margin-right: 5px;
+  height: 2px;
+}

@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import { Card, CardGroup, Container, Button } from 'react-bootstrap';
 import CarouselBox from '../Components/CarouselBox';
-import image from "../assets/1.jpg";
+import tree from "../assets/img/forest.JPG";
+import lights from "../assets/img/round.JPG";
+import jewels from "../assets/img/lights2.JPG";
 
 export default class Home extends Component {
     render() {
@@ -13,7 +15,7 @@ export default class Home extends Component {
                     <CardGroup>
                         <Card style={{margin: "10px"}}>
                             <Card.Img variant="top" 
-                            src={image}
+                            src={lights}
                             width="100px"/>
                             <Card.Body>
                                 <Card.Title>
@@ -29,7 +31,7 @@ export default class Home extends Component {
                         </Card>
                         <Card style={{margin: "10px"}}>
                             <Card.Img variant="top" 
-                            src={image}/>
+                            src={tree}/>
                             <Card.Body>
                                 <Card.Title>
                                 Info1
@@ -44,7 +46,7 @@ export default class Home extends Component {
                         </Card>
                         <Card style={{margin: "10px"}}>
                             <Card.Img variant="top" 
-                            src={image}/>
+                            src={jewels}/>
                             <Card.Body>
                                 <Card.Title>
                                 Info1

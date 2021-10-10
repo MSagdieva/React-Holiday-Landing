@@ -5,7 +5,7 @@ export default class Contacts extends Component {
     render() {
         return (
             <Container style={{width: '500px'}}>
-                <h1 className="text-center">Contacts</h1>
+                <h1 className="text-center">А что вы думаете?</h1>
                 <Form>
                     <Form.Group controlId="formBasicEmail">
                         <Form.Label>Email Adress:</Form.Label>
