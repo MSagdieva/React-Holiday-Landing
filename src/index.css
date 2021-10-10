@@ -22,3 +22,28 @@ code {
   -o-transition: 0s !important;
   transition: 0s !important;
 }
+.nav-link{
+  color:   rgb(170, 129, 7);
+}
+.nav-pills .nav-link.active{
+  background-color: rgb(255, 193, 7);
+}
+input{
+  outline:none;
+}
+:active, :hover, :focus {
+  outline: 0;
+  outline-offset: 0;
+}
+input.form-control:focus{
+
+  box-shadow: 2px 3px 2px rgb(255, 193, 7), 2px 3px 2px rgb(255, 193, 7);
+}
+textarea.form-control:focus{
+  outline: none;;
+  box-shadow: 2px 3px 2px rgb(255, 193, 7), 2px 3px 2px rgb(255, 193, 7);
+}
+.form-check-input:checked{
+background-color: #ffc107;
+border-color: #ffc107;
+}

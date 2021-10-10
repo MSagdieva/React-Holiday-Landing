@@ -14,11 +14,11 @@ render() {
                     <img className="d-block w-100"
                     src={jewels}
                     alt='jewels'
-                    height='600px'
+                    height='700px'
                     />
                     <Carousel.Caption>
                         <h3>Jewels image</h3>
-                        <p>llorem dskre kfd rdskle frws lorem
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla ullam mollitia, eveniet aperiam harum non quae voluptates, laboriosam saepe libero id, cum nemo vero iure. Laudantium amet optio voluptas blanditiis!
                         </p>
                     </Carousel.Caption>
                 </Carousel.Item>
@@ -26,11 +26,11 @@ render() {
                     <img className="d-block w-100"
                     src={tree}
                     alt='tree'
-                    height='600px'
+                    height='700px'
                     />
                     <Carousel.Caption>
                         <h3>Tree image</h3>
-                        <p>llorem dskre kfd rdskle frws lorem
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla ullam mollitia, eveniet aperiam harum non quae voluptates, laboriosam saepe libero id, cum nemo vero iure. Laudantium amet optio voluptas blanditiis!
                         </p>
                     </Carousel.Caption>
                 </Carousel.Item>
@@ -38,11 +38,11 @@ render() {
                     <img className="d-block w-100"
                     src={lights}
                     alt='lights'
-                    height='600px'
+                    height='700px'
                     />
                     <Carousel.Caption>
                         <h3>Lights image</h3>
-                        <p>llorem dskre kfd rdskle frws lorem
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla ullam mollitia, eveniet aperiam harum non quae voluptates, laboriosam saepe libero id, cum nemo vero iure. Laudantium amet optio voluptas blanditiis!
                         </p>
                     </Carousel.Caption>
                 </Carousel.Item>
