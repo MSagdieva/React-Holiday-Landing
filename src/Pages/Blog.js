@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import { Col, Row, Container, Media, ListGroup, Card } from 'react-bootstrap';
-import forest from "../assets/img/forest.JPG";
+import forest2 from "../assets/img/forest.JPG";
+import snow2 from "../assets/img/snow.jpg";
+import lights2 from "../assets/img/lights2.JPG";
+import train2 from "../assets/img/train.JPG";
 
 export default class Blog extends Component {
     constructor (props){
@@ -25,7 +28,8 @@ export default class Blog extends Component {
                             height={"100%"}
                             className="mr-3"
                             style={{objectFit:"cover"}}
-                            src={forest}
+                            src={forest2}
+                            alt={""}
                             />
                             <Media.Body style={{marginLeft:"30px"}}>
                                 <h5>Blog1</h5>
@@ -37,7 +41,8 @@ export default class Blog extends Component {
                             height={"100%"}
                             className="mr-3"
                             style={{objectFit:"cover"}}
-                            src="../../public/assets/img/tree.jpg"
+                            alt={""}
+                            src={snow2}
                             />
                             <Media.Body style={{marginLeft:"30px"}}>
                                 <h5>Blog1</h5>
@@ -49,7 +54,8 @@ export default class Blog extends Component {
                             height={"100%"}
                             className="mr-3"
                             style={{objectFit:"cover"}}
-                            src="../../public/assets/img/tree.jpg"
+                            src={lights2}
+                            alt={""}
                             />
                             <Media.Body style={{marginLeft:"30px"}}>
                                 <h5>Blog1</h5>
@@ -61,7 +67,8 @@ export default class Blog extends Component {
                             height={"100%"}
                             className="mr-3"
                             style={{objectFit:"cover"}}
-                            src="../../public/assets/img/tree.jpg"
+                            src={train2}
+                            alt={""}
                             />
                             <Media.Body style={{marginLeft:"30px"}}>
                                 <h5>Blog1</h5>
@@ -70,7 +77,7 @@ export default class Blog extends Component {
                         </Media>
                     </Col>
                     <Col md="3">
-                        <h5></h5>
+                        <h5>Categories</h5>
                         <Card variant="flush">
                             <ListGroup>
                                 <ListGroup.Item>item1</ListGroup.Item>
