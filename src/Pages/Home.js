@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import { Card, CardGroup, Container, Button } from 'react-bootstrap';
 import CarouselBox from '../Components/CarouselBox';
 import tree from "../assets/img/forest.jpg";
-import lights from "../assets/img/round.jpg";
-import jewels from "../assets/img/lights2.jpg";
+import jewels from "../assets/img/round.jpg";
+import lights3 from "../assets/img/lights2.jpg";
 
 export default class Home extends Component {
     render() {
@@ -15,32 +15,18 @@ export default class Home extends Component {
                     <CardGroup>
                         <Card style={{margin: "10px"}}>
                             <Card.Img variant="top" 
-                            src={lights}
+                            src={tree}
                             width="100px"/>
                             <Card.Body>
                                 <Card.Title>
-                                Info1
+                                Winter Forest
                                 </Card.Title>
                                 <Card.Text>
-                                    information text
+                                    It is a magical place!
                                 </Card.Text>
                                 <Button variant="warning">
-                                    About info
-                                </Button>
-                            </Card.Body>
-                        </Card>
-                        <Card style={{margin: "10px"}}>
-                            <Card.Img variant="top" 
-                            src={tree}/>
-                            <Card.Body>
-                                <Card.Title>
-                                Info1
-                                </Card.Title>
-                                <Card.Text>
-                                    information text
-                                </Card.Text>
-                                <Button variant="warning">
-                                    About info
+                                <a className="link" href="https://www.forestholidays.co.uk/forestipedia/winter-in-the-forest/">
+                                    About Winter in Forest</a>
                                 </Button>
                             </Card.Body>
                         </Card>
@@ -49,13 +35,32 @@ export default class Home extends Component {
                             src={jewels}/>
                             <Card.Body>
                                 <Card.Title>
-                                Info1
+                                    Christmas wreath
                                 </Card.Title>
                                 <Card.Text>
-                                    information text
+                                    Soon on every door
                                 </Card.Text>
                                 <Button variant="warning">
-                                    About info
+                                    <a className="link" href="https://www.floom.com/magazine/article/a-b-wreath-history-of-the-christmas-wreath">
+                                    About Christmas wreath's history
+                                    </a>
+                                </Button>
+                            </Card.Body>
+                        </Card>
+                        <Card style={{margin: "10px"}}>
+                            <Card.Img variant="top" 
+                            src={lights3}/>
+                            <Card.Body>
+                                <Card.Title>
+                                Gardlands
+                                </Card.Title>
+                                <Card.Text>
+                                    Let there be light!
+                                </Card.Text>
+                                <Button variant="warning">
+                                <a className="link" href="https://www.countryliving.com/life/news/a36975/australian-christmas-tree-sets-record-with-518838-lights/">
+                                    About where are the most
+                                    </a>
                                 </Button>
                             </Card.Body>
                         </Card>

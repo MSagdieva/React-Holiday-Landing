@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { Col, Row, Container, Media, ListGroup, Card } from 'react-bootstrap';
-import forest2 from "../assets/img/forest.jpg";
+import street from "../assets/img/street.jpg";
 import snow2 from "../assets/img/snow.jpg";
-import lights2 from "../assets/img/lights2.jpg";
+import tinsel from "../assets/img/tinsel.jpg";
 import train2 from "../assets/img/train.jpg";
 
 export default class Blog extends Component {
@@ -28,11 +28,11 @@ export default class Blog extends Component {
                             height={"100%"}
                             className="mr-3"
                             style={{objectFit:"cover"}}
-                            src={forest2}
+                            src={street}
                             alt={""}
                             />
                             <Media.Body style={{marginLeft:"30px"}}>
-                                <h5>Blog1</h5>
+                                <h5>Blog 1</h5>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam alias recusandae fugiat vel aliquid molestiae error expedita. Et adipisci nulla exercitationem consequatur. Cum quo aliquam error, minima asperiores labore doloremque?</p>
                             </Media.Body>
                         </Media>
@@ -45,7 +45,7 @@ export default class Blog extends Component {
                             src={snow2}
                             />
                             <Media.Body style={{marginLeft:"30px"}}>
-                                <h5>Blog1</h5>
+                                <h5>Blog 2</h5>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam alias recusandae fugiat vel aliquid molestiae error expedita. Et adipisci nulla exercitationem consequatur. Cum quo aliquam error, minima asperiores labore doloremque?</p>
                             </Media.Body>
                         </Media>
@@ -54,11 +54,11 @@ export default class Blog extends Component {
                             height={"100%"}
                             className="mr-3"
                             style={{objectFit:"cover"}}
-                            src={lights2}
+                            src={tinsel}
                             alt={""}
                             />
                             <Media.Body style={{marginLeft:"30px"}}>
-                                <h5>Blog1</h5>
+                                <h5>Blog 3</h5>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam alias recusandae fugiat vel aliquid molestiae error expedita. Et adipisci nulla exercitationem consequatur. Cum quo aliquam error, minima asperiores labore doloremque?</p>
                             </Media.Body>
                         </Media>
@@ -71,7 +71,7 @@ export default class Blog extends Component {
                             alt={""}
                             />
                             <Media.Body style={{marginLeft:"30px"}}>
-                                <h5>Blog1</h5>
+                                <h5>Blog 4</h5>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam alias recusandae fugiat vel aliquid molestiae error expedita. Et adipisci nulla exercitationem consequatur. Cum quo aliquam error, minima asperiores labore doloremque?</p>
                             </Media.Body>
                         </Media>
@@ -90,9 +90,10 @@ export default class Blog extends Component {
                         </Card>
                         <Card bg="light" variant="flush" className="mt-4">
                             <Card.Body>
-                                <Card.Title>До праздников осталось</Card.Title>
+                                <Card.Title>Is is only</Card.Title>
                                 <Card.Text>
-                                {this.state.time} дней
+                                {/* {this.state./time}*/} 
+                                a few days before the holidays begins 
                                 </Card.Text>
                             </Card.Body>
                         

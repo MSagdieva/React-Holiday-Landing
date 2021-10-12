@@ -9,12 +9,13 @@ export default class CarouselBox extends Component {
 
 render() {
         return (
-            <Carousel variant="dark" style={{height:"60%", backgroundColor:'#000000'}}>
-                <Carousel.Item>
+            <Carousel variant="dark" style={{height:"80vh", backgroundColor:'#000000'}}>
+                <Carousel.Item style={{height: "100%", objectFit:"cover"}}>
                     <img className="d-block w-100"
                     src={jewels}
                     alt='jewels'
                     height='100%'
+                    width="100%"
                     />
                     <Carousel.Caption>
                         <h3>Jewels image</h3>
@@ -22,11 +23,12 @@ render() {
                         </p>
                     </Carousel.Caption>
                 </Carousel.Item>
-                <Carousel.Item>
+                <Carousel.Item style={{height: "100%", width:"100%", objectFit:"cover"}}>
                     <img className="d-block w-100"
                     src={tree}
                     alt='tree'
                     height='100%'
+                    width="100%"
                     />
                     <Carousel.Caption>
                         <h3>Tree image</h3>
@@ -34,11 +36,12 @@ render() {
                         </p>
                     </Carousel.Caption>
                 </Carousel.Item>
-                <Carousel.Item>
+                <Carousel.Item style={{height: "100%", width:"100%", objectFit:"cover"}}>
                     <img className="d-block w-100"
                     src={lights}
                     alt='lights'
                     height='100%'
+                    width="100%"
                     />
                     <Carousel.Caption>
                         <h3>Lights image</h3>

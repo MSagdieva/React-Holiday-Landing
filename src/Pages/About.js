@@ -6,6 +6,7 @@ export default class About extends Component {
     render() {
         return (
             <Container>
+                <h1 className="text-center"> 5 things to do in winter</h1>
                 <Tab.Container
                 id="ledt-tabs-example" defaultActiveKey="first">
                     <Row>
@@ -41,19 +42,19 @@ export default class About extends Component {
                     <Col sm={9}>
                         <Tab.Content>
                         <Tab.Pane eventKey="first">
-                            <p>first</p>
+                            <p>Take a walk, see some snow (or touch it, or eat, it's all on you)</p>
                         </Tab.Pane>
                         <Tab.Pane eventKey="second">
-                            <p>second</p>
+                            <p>Get cosy</p>
                         </Tab.Pane>
                         <Tab.Pane eventKey="third">
-                            <p>third</p>
+                            <p>Winter sports (they are really good actually)</p>
                         </Tab.Pane>
                         <Tab.Pane eventKey="fourth">
-                            <p>fourth</p>
+                            <p>Hot beverage on the street(mulled wine is yummy, especially in -20)</p>
                         </Tab.Pane>
                         <Tab.Pane eventKey="fifth">
-                            <p>fifth</p>
+                            <p>Snowball fight</p>
                         </Tab.Pane>
                         </Tab.Content>
                     </Col>

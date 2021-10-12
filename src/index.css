@@ -53,3 +53,9 @@ border-color: #ffc107;
   margin-right: 5px;
   height: 2px;
 }
+.carousel-inner{
+  height: 100%;
+}
+a.link{
+  text-decoration: none;
+}
