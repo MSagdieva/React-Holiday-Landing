@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { Card, CardGroup, Container, Button } from 'react-bootstrap';
 import CarouselBox from '../Components/CarouselBox';
-import tree from "../assets/img/forest.JPG";
-import lights from "../assets/img/round.JPG";
-import jewels from "../assets/img/lights2.JPG";
+import tree from "../assets/img/forest.jpg";
+import lights from "../assets/img/round.jpg";
+import jewels from "../assets/img/lights2.jpg";
 
 export default class Home extends Component {
     render() {

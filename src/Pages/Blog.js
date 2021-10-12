@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { Col, Row, Container, Media, ListGroup, Card } from 'react-bootstrap';
-import forest2 from "../assets/img/forest.JPG";
+import forest2 from "../assets/img/forest.jpg";
 import snow2 from "../assets/img/snow.jpg";
-import lights2 from "../assets/img/lights2.JPG";
-import train2 from "../assets/img/train.JPG";
+import lights2 from "../assets/img/lights2.jpg";
+import train2 from "../assets/img/train.jpg";
 
 export default class Blog extends Component {
     constructor (props){
